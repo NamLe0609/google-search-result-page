@@ -12,17 +12,17 @@
         }
 
         #nav-bar {
-            position: sticky;
             display: grid;
             grid-template-columns: repeat(281,5px);
             grid-template-rows: 65px;
+            top: 0mm;
         }
 
         #option-bar {
             position: relative;
             left: 130px;
             width: 832px;
-            height: 10px;
+            height: 15px;
             list-style-type: none;
         }
 
@@ -48,10 +48,72 @@
 
         #magnifying-glass {
             background-color: transparent;
-            position: fixed;
+            position: relative;
+            left: 642px;
+            bottom: 36px;
             border-color: transparent;
-            top: 30px;
-            left: 805px;
+            fill: #4285f4;
+        }
+
+        .icons {
+            position: sticky;
+            margin: 0px 40px 0px 10px;
+        }
+        
+        h1{
+            color: #5f6368;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            font-weight: 100;
+        }
+
+        #main {
+            position: relative;
+            left: 172px;
+            top: 7px;
+        }
+
+        .website {
+            
+        }
+
+        h4 {
+            font-size: 14px;
+            position: relative;
+            top: 8px;
+            font-family: arial;
+            font-weight: 100;
+        }
+
+        h2 {
+            font-family: arial;
+            font-weight: 100;
+            font-size: 20px;
+        }
+
+        h3 {
+            font-family: arial;
+            font-weight: 100;
+            font-size: 14px;
+            width: 600px;
+            color: #4d5156;
+            position: relative;
+            bottom: 10px;
+            line-height: 20px;
+        }
+
+        #video-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+        }
+
+        .pannels {
+            height: 304px;
+            width: 210px;
+            border-radius: 8px;
+            border: 1px solid #dfe1e5;
+            margin: 5px;
         }
     </style>
 
@@ -66,6 +128,15 @@
                         </svg>
                     </button>
                 </form>
+            </div>
+
+            <div style="position: absolute; left: 160px; top: 88px; width: 50%;">
+                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" fill="#34A853"></path><path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6" fill="#EA4335"></path><path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6" fill="#FBBC04"></path><path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" fill="#4285F4"></path></svg></span>
+                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg></span>
+                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 16 16"><path style="fill: #5f6368;" d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658"></path></svg></span>
+                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg></span>
+                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path></svg></span>
+                <span class="icons" style="height:16px;line-height:16px;width:16px; display: inline-block;"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></span>
             </div>
 
             <div id="border1">
@@ -95,11 +166,42 @@
             </div>
         </header>
     
-    <div>
+    <div id="main">
+        <h1>About 92,100,000 results (0.44 seconds)</h1>
+        
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">victor-lf.github.io</a> <a href="">› google-search-results</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">build this webpage - GitHub Pages</a>
+            </h2>
+            <h3>
+                build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...
+            </h3>
+        </article>
 
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">christine-27.github.io</a> <a href="">› google-homepage</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">build this webpage - GitHub Pages</a>
+            </h2>
+            <h3 style="width: 504px;">
+                With zero coding experience, artist building 180 webpages in 180 days. hhttps:// arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages-.            </h3>
+        </article>
+        
+            <h1 style="font-size: 20px; color: #222;">
+                Videos</h1>
 
+        <div id="video-links">
+            <div class="pannels">
+                <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="https://i.ytimg.com/vi/YWA-xbsJrVg/maxresdefault.jpg" alt="Video thumbnail" height="118px" width="210px">
+            </div>
+
+        </div>
 
     </div>
-        
     </body>
 </html>
