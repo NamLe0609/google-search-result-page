@@ -56,8 +56,7 @@
         }
 
         .icons {
-            position: sticky;
-            margin: 0px 40px 0px 10px;
+            position: relative;
         }
         
         h1{
@@ -105,6 +104,7 @@
         #video-links {
             display: flex;
             flex-direction: row;
+            flex-wrap: nowrap;
             justify-content: start;
         }
 
@@ -114,6 +114,15 @@
             border-radius: 8px;
             border: 1px solid #dfe1e5;
             margin: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #frequent-questions {
+            height: 176.85px;
+            width: 652px;
+            border-radius: 8px;
+            border: 1px solid #dfe1e5;
         }
     </style>
 
@@ -130,27 +139,27 @@
                 </form>
             </div>
 
-            <div style="position: absolute; left: 160px; top: 88px; width: 50%;">
-                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" fill="#34A853"></path><path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6" fill="#EA4335"></path><path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6" fill="#FBBC04"></path><path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" fill="#4285F4"></path></svg></span>
-                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg></span>
-                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 16 16"><path style="fill: #5f6368;" d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658"></path></svg></span>
-                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg></span>
-                <span class="icons" style="height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path></svg></span>
-                <span class="icons" style="height:16px;line-height:16px;width:16px; display: inline-block;"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></span>
+            <div style="position: absolute; left: 160px; top: 89px; width: 50%;">
+                <span class="icons" style="left: 18px;height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8" fill="#34A853"></path><path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6" fill="#EA4335"></path><path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6" fill="#FBBC04"></path><path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59" fill="#4285F4"></path></svg></span>
+                <span class="icons" style="left: 58px;height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg></span>
+                <span class="icons" style="left: 114px;height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 16 16"><path style="fill: #5f6368;" d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658"></path></svg></span>
+                <span class="icons" style="left: 167px;height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg></span>
+                <span class="icons" style="left: 228px;height:16px;width:16px; display: inline-block;"><svg focusable="false" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path></svg></span>
+                <span class="icons" style="left: 313px;height:16px;line-height:16px;width:16px; display: inline-block;"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #5f6368;" d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></span>
             </div>
 
             <div id="border1">
                 <style>
                     li {
                         float: left;
-                        font-size: 12px;
-                        font-family: sans-serif;
+                        font-size: 13px;
+                        font-family: arial, sans-serif;
                         padding: 0px 23px 0px 21px;
                     }
 
                     a {
                         text-decoration: none;
-                        color: #4d5156;
+                        color: #5f6368;
                     }
                 </style>
                 <ul id="option-bar">
@@ -189,7 +198,8 @@
                 <a style="color: #1a0dab;" href="">build this webpage - GitHub Pages</a>
             </h2>
             <h3 style="width: 504px;">
-                With zero coding experience, artist building 180 webpages in 180 days. hhttps:// arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages-.            </h3>
+                With zero coding experience, artist building 180 webpages in 180 days. 
+                hhttps:// arstechnica.com/.../with-zero-coding-experience-artist-building-180-webpages-.            </h3>
         </article>
         
             <h1 style="font-size: 20px; color: #222;">
@@ -198,10 +208,130 @@
         <div id="video-links">
             <div class="pannels">
                 <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="https://i.ytimg.com/vi/YWA-xbsJrVg/maxresdefault.jpg" alt="Video thumbnail" height="118px" width="210px">
+                <h2 style="line-height: 1.375 ;font-family: Arial, sans-serif; align-self: center; font-size: 16px; height: 110px; width: 178px;">
+                    <a href="" style="color: #1a0dab;">How to Make a <br> Website in 10 mins - Simple & Easy</a>
+                </h2>
+            <h3 style="align-self: flex-start; width: auto; position: relative; left: 15px; top: 25px; color: #808080;">
+                Website Learners
+            </h3>
+            <h4 style="align-items: center; left: 15px; top: -3px;">
+                YouTube - <a style="color: #808080;">3 Jan 2018</a>
+            </h4>
             </div>
+            
+            <div class="pannels">
+                <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fl3mUE6qj2Qg%2Fmaxresdefault.jpg&f=1&nofb=1" alt="Video thumbnail" height="118px" width="210px">
+                <h2 style="line-height: 1.375 ;font-family: Arial, sans-serif; align-self: center; font-size: 16px; height: 110px; width: 178px;">
+                    <a href="" style="color: #1a0dab;">How To Build a <br>Website Without <br>Code | Everyone <br>Can Build a ...</a>
+                </h2>
+            <h3 style="align-self: flex-start; width: auto; position: relative; left: 15px; top: 4px; color: #808080;">
+                Roberto Blake
+            </h3>
+            <h4 style="align-items: center; left: 15px; top: -25px;">
+                YouTube - <a style="color: #808080;">8 Nov 2016</a>
+            </h4>
+            </div>
+
+            <div class="pannels">
+                <img style="border-top-left-radius: 8px; border-top-right-radius: 8px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FjHPr-CuvHhs%2Fmaxresdefault.jpg&f=1&nofb=1" alt="Video thumbnail" height="118px" width="210px">
+                <h2 style="line-height: 1.375 ;font-family: Arial, sans-serif; align-self: center; font-size: 16px; height: 110px; width: 178px;">
+                    <a href="" style="color: #1a0dab;">Welcome to the <br> web! (video)</a>
+                </h2>
+            <h3 style="align-self: flex-start; width: auto; position: relative; left: 15px; top: 33px; color: #808080;">
+                Khan Academy Computing
+            </h3>
+            <h4 style="align-items: center; left: 15px; top: 5px;">
+                Khan Academy -<a style="color: #808080;">28 Mar 2020</a>
+            </h4>
+            </div>
+        </div>
+
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">www.websitebuilderexpert.com</a> <a href="">› building-websites</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">How to Build a Website 2020 | The Complete Beginner's Guide</a>
+            </h2>
+            <h3 style="width: 580px;">
+                <a>Jun 2020</a> - How to Build a Website: the Step-by-Step Guide to Easy Setup. We'll look at how to make a website with both a website builder and WordPress, ...</h3>
+        </article>
+
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">arstechnica.com</a> <a href="">› information-technology › 2013/07</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">With zero coding experience, artist building 180 webpages in ...</a>
+            </h2>
+            <h3 style="width: 600px;">
+                <a>26 Jul 2013</a> - One of Jennifer Dewalt's creations, this webpage lets visitors create paintings in ... Build a different website every day for 180 consecutive days.</h3>
+        </article>
+
+        <div id="frequent-questions">
 
         </div>
 
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">www.pcmag.com</a> <a href="">› google-homepage</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">How to Create a Website | PCMag</a>
+            </h2>
+            <h3 style="width: 504px;">
+                If you need to quickly build a simple website, starting with a blogging service is a great way to go. The major player in the blog game is WordPress, a content ...</h3>
+        </article>
+        
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">www.buildthis.io</a> <a href="">› make-a-website</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">How to Build A Website: A-to-Z Beginner Guide - BuildThis.io</a>
+            </h2>
+            <h3 style="width: 600px;">
+                <a>21 Apr 2020</a> - In this article, I will show you the essential steps in creating a website. Register a domain name; Signup for a web hosting; Design your ...</h3>
+        </article>
+
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">www.google.com</a> <a href="">› business › how-it-works › website</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">Free Website Builder For Your Business - Google My Business</a>
+            </h2>
+            <h3 style="width: 600px;">
+                Let Google build your first website for free. We'll help you create a beautiful website to impress and engage new customers – and establish your business online.</h3>
+        </article>
+
+        <article class="website">
+            <h4>
+                <a style="color: black;" href="">www.squarespace.com</a>
+            </h4>
+            <h2>
+                <a style="color: #1a0dab;" href="">Squarespace: Build a Website – Website Builder</a>
+            </h2>
+            <h3 style="width: 600px;">
+                Squarespace is the all-in-one solution for anyone looking to create a beautiful website. Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ...</h3>
+        </article>
+
+        <div id="related-images">
+
+        </div>
+
+        <div id="related-searches">
+
+        </div>
+
+        <div id="google-pages">
+
+        </div>
     </div>
+
+    <footer>
+
+    </footer>
+    
     </body>
 </html>
