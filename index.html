@@ -71,11 +71,7 @@
             left: 172px;
             top: 7px;
         }
-
-        .website {
             
-        }
-
         h4 {
             font-size: 14px;
             position: relative;
@@ -123,6 +119,95 @@
             width: 652px;
             border-radius: 8px;
             border: 1px solid #dfe1e5;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #frequent-questions h1 {
+            color: #222;
+            font-size: 20px;
+            line-height: 1.3;
+            padding: 9px 16px;
+            width: 620px;
+            height: 44px;
+            margin: unset;
+        }
+
+        #frequent-questions h2 {
+            font-size: 16px;
+            position: relative;
+            padding: 14px 16px;
+            line-height: 1;
+            border-top: 1px solid #e5e5e5;
+            position: relative;
+            margin: unset;
+        }
+
+        #related-images {
+            display: flex;
+            flex-direction: column;
+            height: 249px;
+            width: 660px;
+        }
+
+        #related-images ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+        }
+
+        #related-images ul li {
+            display: inline;
+            padding: 5px;
+        }
+
+        #related-images ul li a{
+            display: block;
+            padding: 8px;
+            border-radius: 18px;
+            border: 1px solid #DADCE0;
+            color: #3c4043;
+            font: 400 12px arial,sans-serif;
+        }
+
+        #image-showcase {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        
+        #image-showcase div {
+            border: 1px solid #dfe1e5;
+        }
+
+        #related-searches {
+            margin-top: 40px;
+        }
+
+        #related-searches ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+        #related-searches ul li {
+            display: initial;
+            float: unset;
+            padding-left: 30px;
+            margin: 3px 0px ;
+        }
+
+        #related-searches ul li a {
+            color: #1a0dab;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        #related-searches svg {
+            position: absolute;
         }
     </style>
 
@@ -269,8 +354,23 @@
         </article>
 
         <div id="frequent-questions">
-
+            <h1>
+                People also ask
+            </h1>
+            <h2>
+                How can I create my own webpage?
+            </h2>
+            <h2>
+                How can I create my own website on Google?
+            </h2>
+            <h2>
+                How can I create a website and earn money?
+            </h2>
         </div>
+
+        <h4 style="font-style:italic; position: relative; left: 580px; bottom: 50px; margin: unset; color: #5f6368; font-size: 12px;">
+            <a href="">Feedback</a>
+        </h4>
 
         <article class="website">
             <h4>
@@ -279,7 +379,7 @@
             <h2>
                 <a style="color: #1a0dab;" href="">How to Create a Website | PCMag</a>
             </h2>
-            <h3 style="width: 504px;">
+            <h3 style="width: 600px;">
                 If you need to quickly build a simple website, starting with a blogging service is a great way to go. The major player in the blog game is WordPress, a content ...</h3>
         </article>
         
@@ -312,20 +412,61 @@
             <h2>
                 <a style="color: #1a0dab;" href="">Squarespace: Build a Website – Website Builder</a>
             </h2>
-            <h3 style="width: 600px;">
+            <h3 style="width: 580px;">
                 Squarespace is the all-in-one solution for anyone looking to create a beautiful website. Domains, eCommerce, hosting, galleries, analytics, and 24/7 support all ...</h3>
         </article>
 
         <div id="related-images">
-
+            <h2>
+                <a style="color: #1a0dab;" href="">Images for build this webpage</a>
+            </h2>
+            <ul>
+                <li><a href="">personal website</a></li>
+                <li><a href="">weebly</a></li>
+                <li><a href="">wordpress</a></li>
+                <li><a href="">software</a></li>
+                <li><a href="">css</a></li>
+                <li><a href="">step guide</a></li>
+                <li><a href="">web design</a></li>
+                <li><a href="">domain</a></li>
+            </ul>
+            <div id="image-showcase">
+                <div style="width: 112px; height: 130px;"><img src="https://images.websitebuilderexpert.com/wp-content/uploads/2018/01/How-to-Build-a-Website_Hero.jpg" alt="How to build a WEBSITE" width="112px" height="130px"></div>
+                <div style="width: 174px; height: 130px; overflow: hidden;"><img style="margin-left: -43px; margin-right: -15px;" src="https://embed-fastly.wistia.com/deliveries/c31855d4920c9613152b60c3d44b7ef0a474b5c4.webp?image_crop_resized=960x540" alt="Wix editor" width="232px" height="130px"></div>
+                <div style="width: 174px; height: 130px; overflow: hidden;"><img style="margin-left: -104px; margin-right: -104px ; " src="https://cdn2.editmysite.com/images/landing-pages/global/home-com-forward/themes/design-s.png" alt="Weebly website builder" width="382px" height="130px"></div>
+                <div style="width: 174px; height: 130px; overflow: hidden;"><img style="margin-right: -57px;" src="https://collegeinfogeek.com/wp-content/uploads/2012/03/How-to-Build-a-Personal-Website-in-2020.jpg" alt="College info geek guide to building website" width="231px" height="130px"></div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <svg style="width: 24px; height: 24px; margin: 10px 10px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                <h2 style="margin: 10px 0px;"><a href="" style="color: #1a0dab; font-size: 16px; line-height: 1.43;">More images for build this webpage</a></h2>
+                <h4 style="margin: 8px 0px; left: 250px;"><a href="" style="color: #70757a; line-height: 1.58; font-size: 13px;">Report images</a></h4>
+            </div>
         </div>
 
         <div id="related-searches">
-
+            <h2>Searches related to build this webpage</h2>
+            <ul>
+                <li><a href=""><b>how to</b> build <b>a website from scratch</b></a></li>
+                <li><a href="">build <b>a website free</b></a></li>
+                <li><a href=""><b>creating a website for your business</b></a></li>
+                <li><a href=""><b>the odin project</b></a></li>
+                <li><a href="">build <b>a website in a day</b></a></li>
+                <li><a href=""><b>how to create a website free of cost</b></a></li>
+                <li><a href=""><b>how to create a website pdf</b></a></li>
+                <li><a href=""><b>project on website development</b></a></li>
+            </ul>
+            <svg style="width: 20px; height: 20px; bottom: 215px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 185px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 155px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 125px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 95px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 65px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 36px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 4px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
         </div>
 
         <div id="google-pages">
-
+            
         </div>
     </div>
 
