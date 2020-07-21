@@ -68,8 +68,8 @@
 
         #main {
             position: relative;
-            left: 172px;
-            top: 7px;
+            padding-left: 172px;
+            padding-top: 7px;
         }
             
         h4 {
@@ -181,7 +181,7 @@
         }
 
         #related-searches {
-            margin-top: 40px;
+            margin-top: 70px;
         }
 
         #related-searches ul {
@@ -207,8 +207,78 @@
         }
 
         #related-searches svg {
-            position: absolute;
+            position: relative;
         }
+
+        #google-pages {
+            width: 100%;
+            height: 56px;
+            position: relative;
+            top: 40px;
+        }
+
+        #google-pages img {
+            float: left;
+            position: relative;
+            left: 165px;
+            margin: 0px 0.5px;
+        }
+
+        #google-pages ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 25px;
+            right: 161px;
+        }
+
+        #google-pages ul li {
+            margin: 9.3px;
+            padding: initial;
+        }
+
+        #google-pages ul li a {
+            color: #4285f4;
+            font-size: 14px;
+        }
+
+        footer h3 {
+            background-color: #f2f2f2;
+            width: 92%;
+            padding: 10px 0px 10px 160px;
+            border-top: 1px solid #e4e4e4;
+            border-bottom: 1px solid #e4e4e4;
+            color: rgba(0,0,0,.54);
+            position: relative;
+            top: 50px;
+            z-index: 100;
+        }
+
+        footer div ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 40px;
+        }
+
+        footer div ul li {
+            padding: 20px 15px 0px 5px;
+            position: relative;
+            left: 155px;
+            bottom: 15px;
+            font-size: 14px;
+        }
+
+        footer div {
+            background-color: #f2f2f2;
+            line-height: 40px;
+            position: relative;
+            top: 30px;
+            width: 100.4%;
+        }
+        
+
     </style>
 
     <body id="root">
@@ -368,7 +438,7 @@
             </h2>
         </div>
 
-        <h4 style="font-style:italic; position: relative; left: 580px; bottom: 50px; margin: unset; color: #5f6368; font-size: 12px;">
+        <h4 style="font-style:italic; position: relative; left: 580px; bottom: 50px; margin: unset; color: #5f6368; font-size: 12px; width: 80px;">
             <a href="">Feedback</a>
         </h4>
 
@@ -455,23 +525,57 @@
                 <li><a href=""><b>how to create a website pdf</b></a></li>
                 <li><a href=""><b>project on website development</b></a></li>
             </ul>
-            <svg style="width: 20px; height: 20px; bottom: 215px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 185px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 155px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 125px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 95px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 65px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 36px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <svg style="width: 20px; height: 20px; bottom: 4px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 235px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 205px; right: 24px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 175px; right: 49px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 145px; right: 74px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 115px; right: 99px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 85px; right: 124px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 56px; right: 149px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <svg style="width: 20px; height: 20px; bottom: 24px; right: 175px;" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path style="fill: #1a0dab;" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
         </div>
 
         <div id="google-pages">
-            
+            <img style="max-width: 2%; height: auto; bottom: 7.5px;" src="https://i.ibb.co/rfpcVbJ/bigG.png" alt="Big g">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/SXXW6qH/redO.png" alt="Red O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/4Fm4pTB/yellowO.png" alt="Yellow O">
+            <img style="max-width: 1.5%; height: auto; top: 1px;" src="https://i.ibb.co/KjbgHbr/small-g.png" alt="Small g">
+            <img style="max-width: 0.4%; height: auto; bottom: 7px;" src="https://i.ibb.co/N3p5cJx/I.png" alt="Green I">
+            <img style="max-width: 1.5%; height: auto;" src="https://i.ibb.co/8DxcXS3/red-e.png" alt="Red e">
+            <ul>
+                <li><a style="color: #222;">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+                <li><a href="">7</a></li>
+                <li><a href="">8</a></li>
+                <li><a href="">9</a></li>
+                <li style="position: relative;padding-right: 45px; right: 3px;"><a href="">10</a></li>
+                <li><a href="">Next</a></li>
+            </ul>
         </div>
     </div>
 
     <footer>
-
+        <h3>United Kingdom <a style="padding-left: 50px;"><b style="color:#333; font-weight: bold;">W3, London</b> - From your Internet address - <a href="">Use precise location</a> - <a href="">Learn more</a></a></h3>
+        <div>
+            <ul>
+                <li><a>Help</a></li>
+                <li><a>Send feedback</a></li>
+                <li><a>Privacy</a></li>
+                <li><a>Terms</a></li>
+            </ul>
+        </div>
     </footer>
     
     </body>
