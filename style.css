@@ -1,0 +1,276 @@
+#search-bar {
+    border-radius: 24px;
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    width: 690px;
+    height: 44px;
+}
+
+#nav-bar {
+    display: grid;
+    grid-template-columns: repeat(281, 5px);
+    grid-template-rows: 65px;
+    top: 0mm;
+}
+
+#option-bar {
+    position: relative;
+    left: 130px;
+    width: 832px;
+    height: 15px;
+    list-style-type: none;
+}
+
+#search-bar-container {
+    margin-left: 10px;
+    margin-top: 12px;
+    grid-column: 30/50;
+}
+
+#google-logo {
+    height: 30px;
+    width: 92px;
+    grid-column: 0;
+    margin-left: 16px;
+    margin-top: 19px;
+}
+
+#border1 {
+    border-bottom: solid #ebebeb;
+    border-width: 1px;
+    width: 100%;
+}
+
+#magnifying-glass {
+    background-color: transparent;
+    position: relative;
+    left: 642px;
+    bottom: 36px;
+    border-color: transparent;
+    fill: #4285f4;
+}
+
+.icons {
+    position: relative;
+}
+
+h1 {
+    color: #5f6368;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+
+#main {
+    position: relative;
+    padding-left: 172px;
+    padding-top: 7px;
+}
+
+h4 {
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    font-family: arial;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: arial;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: arial;
+    font-weight: 100;
+    font-size: 14px;
+    width: 600px;
+    color: #4d5156;
+    position: relative;
+    bottom: 10px;
+    line-height: 20px;
+}
+
+#video-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.pannels {
+    height: 304px;
+    width: 210px;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#frequent-questions {
+    height: 176.85px;
+    width: 652px;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    flex-direction: column;
+}
+
+#frequent-questions h1 {
+    color: #222;
+    font-size: 20px;
+    line-height: 1.3;
+    padding: 9px 16px;
+    width: 620px;
+    height: 44px;
+    margin: unset;
+}
+
+#frequent-questions h2 {
+    font-size: 16px;
+    position: relative;
+    padding: 14px 16px;
+    line-height: 1;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    margin: unset;
+}
+
+#related-images {
+    display: flex;
+    flex-direction: column;
+    height: 249px;
+    width: 660px;
+}
+
+#related-images ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+#related-images ul li {
+    display: inline;
+    padding: 5px;
+}
+
+#related-images ul li a {
+    display: block;
+    padding: 8px;
+    border-radius: 18px;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    font: 400 12px arial, sans-serif;
+}
+
+#image-showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#image-showcase div {
+    border: 1px solid #dfe1e5;
+}
+
+#related-searches {
+    margin-top: 70px;
+}
+
+#related-searches ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#related-searches ul li {
+    display: initial;
+    float: unset;
+    padding-left: 30px;
+    margin: 3px 0px;
+}
+
+#related-searches ul li a {
+    color: #1a0dab;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#related-searches svg {
+    position: relative;
+}
+
+#google-pages {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    top: 40px;
+}
+
+#google-pages img {
+    float: left;
+    position: relative;
+    left: 165px;
+    margin: 0px 0.5px;
+}
+
+#google-pages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 25px;
+    right: 161px;
+}
+
+#google-pages ul li {
+    margin: 9.3px;
+    padding: initial;
+}
+
+#google-pages ul li a {
+    color: #4285f4;
+    font-size: 14px;
+}
+
+footer h3 {
+    background-color: #f2f2f2;
+    width: 92%;
+    padding: 10px 0px 10px 160px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    color: rgba(0, 0, 0, 0.54);
+    position: relative;
+    top: 50px;
+    z-index: 100;
+}
+
+footer div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+footer div ul li {
+    padding: 20px 15px 0px 5px;
+    position: relative;
+    left: 155px;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+footer div {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    position: relative;
+    top: 30px;
+    width: 100.4%;
+}
